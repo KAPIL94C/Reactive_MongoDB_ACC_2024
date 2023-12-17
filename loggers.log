@@ -1,0 +1,26 @@
+2023-12-17 16:55:45.253  INFO 22000 --- [main] c.j.r.SpringReactiveMongoCrudApplication : Starting SpringReactiveMongoCrudApplication using Java 17.0.9 on DDC4-L-99KDZ93 with PID 22000 (C:\Users\kapil.ae.kumar\Documents\Github_Workspace\Reactive_MongoDB_ACC_2024\target\classes started by kapil.ae.kumar in C:\Users\kapil.ae.kumar\Documents\Github_Workspace\Reactive_MongoDB_ACC_2024)
+2023-12-17 16:55:45.256 DEBUG 22000 --- [main] c.j.r.SpringReactiveMongoCrudApplication : Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-12-17 16:55:45.257  INFO 22000 --- [main] c.j.r.SpringReactiveMongoCrudApplication : No active profile set, falling back to default profiles: default
+2023-12-17 16:55:45.862  INFO 22000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-12-17 16:55:46.026  INFO 22000 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160 ms. Found 1 Reactive MongoDB repository interfaces.
+2023-12-17 16:55:46.731  INFO 22000 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-12-17 16:55:47.002  INFO 22000 --- [cluster-ClusterId{value='657edabaaa047a2ecaa03331', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2023-12-17 16:55:47.002  INFO 22000 --- [cluster-rtt-ClusterId{value='657edabaaa047a2ecaa03331', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2023-12-17 16:55:47.003  INFO 22000 --- [cluster-ClusterId{value='657edabaaa047a2ecaa03331', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=83162400}
+2023-12-17 16:55:47.553  INFO 22000 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9292
+2023-12-17 16:55:47.562  INFO 22000 --- [main] c.j.r.SpringReactiveMongoCrudApplication : Started SpringReactiveMongoCrudApplication in 2.816 seconds (JVM running for 3.32)
+2023-12-17 16:56:55.832 TRACE 22000 --- [reactor-http-nio-2] c.j.r.controller.ProductController       : get all products trace is printed
+2023-12-17 16:56:55.833  INFO 22000 --- [reactor-http-nio-2] c.j.r.controller.ProductController       : Product list is printed
+2023-12-17 16:56:55.991  INFO 22000 --- [nioEventLoopGroup-3-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:31}] to localhost:27017
+2023-12-17 17:03:08.147  INFO 22000 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:31}] to localhost:27017 because the pool has been closed.
+2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-03-17[%PARSER_ERROR[leve]]2023-04-17[%PARSER_ERROR[leve]]2023-04-17[%PARSER_ERROR[leve]]2023-04-17[%PARSER_ERROR[leve]]2023-05-17[%PARSER_ERROR[leve]]2023-12-17 - Starting SpringReactiveMongoCrudApplication using Java 17.0.9 on DDC4-L-99KDZ93 with PID 21368 (C:\Users\kapil.ae.kumar\Documents\Github_Workspace\Reactive_MongoDB_ACC_2024\target\classes started by kapil.ae.kumar in C:\Users\kapil.ae.kumar\Documents\Github_Workspace\Reactive_MongoDB_ACC_2024)
+2023-12-17 - Running with Spring Boot v2.4.5, Spring v5.3.6
+2023-12-17 - No active profile set, falling back to default profiles: default
+2023-12-17 - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2023-12-17 - Finished Spring Data repository scanning in 153 ms. Found 1 Reactive MongoDB repository interfaces.
+2023-12-17 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-12-17 - Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2023-12-17 - Opened connection [connectionId{localValue:2, serverValue:36}] to localhost:27017
+2023-12-17 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=82501300}
+2023-12-17 - Netty started on port 9292
+2023-12-17 - Started SpringReactiveMongoCrudApplication in 2.798 seconds (JVM running for 3.285)

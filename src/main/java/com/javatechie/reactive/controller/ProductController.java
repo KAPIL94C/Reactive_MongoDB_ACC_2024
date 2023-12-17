@@ -2,6 +2,8 @@ package com.javatechie.reactive.controller;
 
 import com.javatechie.reactive.dto.ProductDto;
 import com.javatechie.reactive.service.ProductService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
@@ -14,8 +16,12 @@ public class ProductController {
     @Autowired
     private ProductService service;
 
+    Logger logger = LoggerFactory.getLogger(ProductController.class);
+
     @GetMapping
     public Flux<ProductDto> getProducts(){
+        logger.trace("get all products trace is printed");
+        logger.info("Product list is printed");
         return service.getProducts();
     }
 
